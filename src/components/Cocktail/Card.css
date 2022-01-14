@@ -1,0 +1,179 @@
+
+.ingredients {
+    flex-direction: row;
+    display: flex;
+   
+  } 
+
+.ingredients {
+    display: inline-flex;
+    margin-bottom: -20px;
+ }
+ 
+ .cocktailBlue {
+    opacity: 1;
+    width: 191px;
+    height: 88px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font: normal normal bold 24px/29px "Lato";
+    letter-spacing: 0px;
+    opacity: 1;
+    position: relative;
+    top: -90px;
+    
+ }
+ .cocktailNameBlue {
+    color: #ffffff;
+    font: normal normal bold 24px/29px "Lato";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    top: -66px;
+    left: -173px;
+    position: relative;
+ }
+ .cocktailNameGreen {
+    color: #ffffff;
+    font: normal normal bold 24px/29px "Lato";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    top: -154px;
+    left: -173px;
+    position: relative;
+ }
+ .cocktailNameYellow {
+    color: #ffffff;
+    font: normal normal bold 24px/29px "Lato";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    top: -152px;
+    left: -164px;
+    position: relative;
+ }
+ /* .cocktailNameGreen {
+    color: #0f0f0f;
+    font: normal normal bold 24px/29px "Lato";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+ } */
+ .skewedBlue {
+    transform: skew(0deg, 0deg);
+    background: #004EBF 0% 0% no-repeat padding-box;
+    position: absolute;   
+  }
+  .skewedGreen {
+    transform: skew(0deg, 0deg);
+    background: #48CE94 0% 0% no-repeat padding-box;
+    position: absolute;   
+  }
+  .skewedYellow {
+    transform: skew(0deg, 0deg);
+    background: #E8C01E 0% 0% no-repeat padding-box;
+    position: absolute;   
+  }
+
+ .cocktailGreen {
+    
+    opacity: 1;
+    width: 191px;
+    height: 88px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font: normal normal bold 24px/29px "Lato";
+    letter-spacing: 0px;
+    opacity: 1;
+    position: relative;
+    top: -75px;
+ }
+ 
+ .cocktailYellow {
+    
+    opacity: 1;
+    width: 221px;
+    height: 88px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font: normal normal bold 24px/29px "Lato";
+    letter-spacing: 0px;
+    opacity: 1;
+    position: relative;
+    top: -75px;
+ }
+ /* .cocktailYellow:hover {
+    width: 536px;
+    transition: width 0.3s;
+ } */
+.body {
+    position: relative;
+    top: -54px;
+    width: 433px;
+    left: 20px;
+}
+.bodyInstructions {
+    text-align: left;
+    font: normal normal normal 20px/27px "Segoe UI";
+    letter-spacing: 0px;
+    color: #707070;
+    margin-bottom: -1px;
+}
+.bodyGlass {
+    text-align: left;
+    font: normal normal normal 20px/27px "Segoe UI";
+    letter-spacing: 0px;
+    color: #707070;
+    margin-bottom: -1px;
+}  
+.bodyCategory {
+    text-align: left;
+    font: normal normal normal 20px/27px "Segoe UI";
+    letter-spacing: 0px;
+    color: #707070;
+    margin-bottom: -1px;
+}    
+.title {
+    font: normal normal bold 20px/27px "Segoe UI";
+    letter-spacing: 0px;
+    color: #707070;
+    margin-bottom: 1px;
+}
+.ingredientsBlue { 
+    background: #004EBF 0% 0% no-repeat padding-box;
+    border-radius: 14px;
+    opacity: 1;
+    color: white;
+    font: normal normal bold 12px/15px "Lato";
+    display: inline-block;
+    text-align: center;
+    width: 95px;
+}
+.ingredientsGreen { 
+    background: #48CE94 0% 0% no-repeat padding-box;
+    border-radius: 14px;
+    opacity: 1;
+    color: white;
+    font: normal normal bold 12px/15px "Lato";
+    display: inline-block;
+    text-align: center;
+    width: 95px;
+}
+.ingredientsYellow { 
+    background: #E8C01E 0% 0% no-repeat padding-box;
+    border-radius: 14px;
+    opacity: 1;
+    color: white;
+    font: normal normal bold 12px/15px "Lato";
+    display: inline-block;
+    text-align: center;
+    width: 95px;
+}

@@ -1,0 +1,60 @@
+.Main {
+    flex: 1;
+    text-align: "center";
+    direction: "row";
+    align-items:"cent";
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    
+  }
+.cardBlue {
+  height: 821px;
+  margin-right: 30px;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  border-radius: 10px;
+  box-shadow: 0px 0px 6px #0000001A;
+  opacity: 1;
+ }
+ 
+.cardGreen {
+  height: 821px;
+  margin-right: 30px;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  box-shadow: 0px 0px 6px #0000001A;
+  border-radius: 10px;
+  opacity: 1
+} 
+.cardYellow {
+  height: 821px;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  box-shadow: 0px 0px 6px #0000001A;
+  border-radius: 10px;
+  opacity: 1
+  
+} 
+.cardBlue:hover {
+  box-shadow: 0px 20px 5px #0000001A;
+}
+.cardGreen:hover { 
+  box-shadow: 0px 20px 5px #0000001A;
+}
+.cardYellow:hover {
+  box-shadow: 0px 20px 5px #0000001A;
+}
+
+.cardBlue:hover .cocktailBlue {
+    width: 536px;
+    transition: width 0.3s;
+    
+ }
+.cardGreen:hover .cocktailGreen {
+    width: 536px;
+    transition: width 0.3s;
+    
+ }
+ .cardYellow:hover .cocktailYellow {
+    width: 536px;
+    transition: width 0.3s;
+   
+ }
