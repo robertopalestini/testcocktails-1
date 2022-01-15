@@ -8,7 +8,7 @@ $ git clone  https://github.com/marianotexdinamo/testcocktails.git
 # Switch to branch nacho
 
 ```sh
-$ git checkout "nacho"
+$ git checkout "IgnacioBritos"
 $ git pull 
 ```
 
