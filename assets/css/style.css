@@ -1,0 +1,253 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Fa-regular";
+  src: url("/assets/webfonts/fa-regular-400.eot"); /* IE 5-8 */
+  src: local("☺"),
+    /* sneakily trick IE */ url("/assets/webfonts/fa-regular-400.woff")
+      format("woff"),
+    /* FF 3.6, Chrome 5, IE9 */ url("/assets/webfonts/fa-regular-400.ttf")
+      format("truetype"),
+    /* Opera, Safari */ url("/assets/webfonts/fa-regular-400.svg") format("svg"); /* iOS */
+}
+@font-face {
+  font-family: "Fa-solid";
+  src: url("/assets/webfonts/fa-solid-900.eot"); /* IE 5-8 */
+  src: local("☺"),
+    /* sneakily trick IE */ url("/assets/webfonts/fa-solid-900.woff")
+      format("woff"),
+    /* FF 3.6, Chrome 5, IE9 */ url("/assets/webfonts/fa-solid-900.ttf")
+      format("truetype"),
+    /* Opera, Safari */ url("/assets/webfonts/fa-solid-900.svg") format("svg"); /* iOS */
+}
+
+body {
+  background: white;
+  color: #1d1d1d;
+}
+
+.contenedor {
+  width: 87%;
+  margin: 70px 140px 70px 140px;
+
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  row-gap: 40px;
+}
+
+.contenedor .cocktail {
+  width: 536px;
+  height: 821px;
+  text-align: left;
+  letter-spacing: 0px;
+  color: #707070;
+  opacity: 1;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border-radius: 10px;
+  opacity: 1;
+  box-shadow: 0px 0px 6px #0000001a;
+}
+.contenedor .cocktail:hover {
+  box-shadow: 0px 14px 14px #0000001a;
+}
+
+.nombre {
+  color: #fff;
+  margin: 30px auto 15px 30px;
+  display: flex;
+  align-items: center;
+}
+
+.contenedor .cocktail .text {
+  margin-left: 30px;
+  margin-top: -40px;
+  text-align: left;
+  font-size: 20px;
+  max-width: 433px;
+  position: fixed;
+
+  letter-spacing: 0px;
+  color: #707070;
+}
+
+.contenedor .cocktail .text .titulo {
+  font-weight: 600;
+  display: flex;
+}
+
+.contenedor .cocktail .text .subtitulo {
+  margin-top: -20px;
+  display: flex;
+}
+
+.contenedor .cocktail .foto {
+  width: 536px;
+  height: 403px;
+  object-fit: cover;
+  margin-bottom: 10px;
+  opacity: 0.31;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.contenedor .cocktail .fotoprincipal {
+  width: 425px;
+  height: 314px;
+  display: flex;
+  position: fixed;
+  top: 50px;
+  object-fit: cover;
+  margin-bottom: 10px;
+  margin-left: 55px;
+  clip-path: polygon(21% 12%, 100% 0, 92% 100%, 0 92%);
+  transition: 1s;
+}
+.contenedor .cocktail:hover .fotoprincipal {
+  display: flex;
+  object-fit: cover;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+  width: 536px;
+  height: 403px;
+  top: 0px;
+  margin: 0;
+}
+
+.cuadrado-0 {
+  background-color: #004ebf;
+  display: flex;
+  position: relative;
+  top: -70px;
+  left: 0px;
+  width: 190px;
+  height: 87px;
+  clip-path: polygon(0 24%, 91% 0, 83% 100%, 0% 100%);
+}
+
+.contenedor .cocktail:hover .cuadrado-0 {
+  background-color: #004ebf;
+  display: flex;
+  position: relative;
+  top: -70px;
+  left: 0px;
+  width: 536px;
+  height: 87px;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+  transition: 1s;
+}
+
+.ingredient-0 {
+  background-color: #004ebf;
+  color: white;
+  border-radius: 10px;
+  width: 95px;
+  font-size: 12px;
+  margin-left: 15px;
+  text-align: center;
+}
+
+.cuadrado-1 {
+  background-color: #48ce94;
+  display: flex;
+  position: relative;
+  top: -70px;
+  left: 0px;
+  width: 190px;
+  height: 87px;
+  clip-path: polygon(0 24%, 91% 0, 83% 100%, 0% 100%);
+  transition: 1s;
+}
+
+.contenedor .cocktail:hover .cuadrado-1 {
+  background-color: #48ce94;
+  display: flex;
+  position: relative;
+  top: -70px;
+  left: 0px;
+  width: 536px;
+  height: 87px;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+}
+
+.ingredient-1 {
+  background-color: #48ce94;
+  color: white;
+  border-radius: 10px;
+  width: 95px;
+  font-size: 12px;
+  margin-left: 15px;
+  text-align: center;
+}
+
+.cuadrado-2 {
+  background-color: #e8c01e;
+  display: flex;
+  position: relative;
+  top: -70px;
+  left: 0px;
+  width: 190px;
+  height: 87px;
+  clip-path: polygon(0 24%, 91% 0, 83% 100%, 0% 100%);
+  transition: 1s;
+}
+
+.contenedor .cocktail:hover .cuadrado-2 {
+  background-color: #e8c01e;
+  display: flex;
+  position: relative;
+  top: -70px;
+  left: 0px;
+  width: 536px;
+  height: 87px;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+}
+
+.ingredient-2 {
+  background-color: #e8c01e;
+  color: white;
+  border-radius: 10px;
+  width: 95px;
+  font-size: 12px;
+  margin-left: 15px;
+  text-align: center;
+}
+
+.ingredientes {
+  display: flex;
+  align-items: center;
+}
+
+/* .paginacion {
+  position: fixed;
+  bottom: 0;
+  background: #100a1f;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 10px;
+}
+
+.paginacion button {
+  cursor: pointer;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 50px;
+  width: 200px;
+  background: #241744;
+  color: #fff;
+  border-radius: 100px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  transition: 0.3s ease all;
+}
+
+.paginacion button:hover {
+  background: #137c32;
+} */
